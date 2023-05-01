@@ -1,6 +1,6 @@
 Class and Objects
 -----------------------
-These are at the core of OOP. 
+These are the fundamentals of OOP. 
 A class is the blueprint or template for its objects. 
 Objects are instances of a class. Each object has its own state, behavior, and identity. 
 
@@ -20,7 +20,7 @@ purpose of encapsulation is at least one of the following:
 2) Binding the data with methods that will act on that data (i.e., forming a capsule)
 
 We will see that data encapsulation is one of the key features in a class. If we
-want to promote security, then the data should not be visible to the outside world. We access these data only through the methods defined inside the class.
+want to enhance security, then the data should not be visible to the outside world. We access these data only through the methods defined inside the class.
 Therefore, we can think of these methods as the interface between the objects' data and the outside world.
 In Java, we can implement encapsulation in various ways. For example, we can use the access specifiers (or modifiers) and getter-setter methods in this context.
 
@@ -36,8 +36,7 @@ When we press a button on the remote control to switch on the television, we do 
 about the internal circuits of the television or how the remote control controls the operation
 of the television. 
 We know that different buttons on the remote control have different functionalities, and as long as they work properly, we do not care. So, the user is isolated
-from the complex implementation details, which are encapsulated within the remote
-control (and the television). 
+from the complex implementation details, which are encapsulated within the remote control (and the television). 
 At the same time, the common operations that can be performed through the remote control can be thought of as an abstraction. A manufacturer can
 enhance this feature when the same remote can also perform on a different model or product. For example, a music player’s remote control can also be used to control the volume of a television.
 
@@ -62,8 +61,8 @@ The key advantage is that we can avoid lots of duplicate code with this mechanis
 Polymorphism
 ------------
 
-Polymorphism is generally associated with one name but many forms. Consider the behavior of a dog. When it sees an unknown person, it is angry and starts barking
-a lot. But when it sees the master, it makes different noises and behaves differently. Similarly, in the case of addition of two integers, 
+Polymorphism is generally associated with one name but many forms. Consider the behavior of a pet dog. When it sees a stranger, it gets angry and starts barking
+a lot. But when it sees its master, it makes different noises and behaves differently. Similarly, in the case of addition of two integers, 
 we expect to get a sum of the integers. But for string operands, we expect to get a concatenated string.
 
 The two types of polymorphism are:
@@ -77,8 +76,8 @@ The two types of polymorphism are:
    differently with different inputs). 
    Consider the following case: Suppose we want to generate a random number at the very first line when you
    execute a program. If the generated number is an even number, you
-   will call a method, printing(), which prints "EVEN Hello" otherwise, you’ll
-   call a method whose name is the same but prints "ODD Hello". We can only see which method is
+   will call a method named printing(), which prints "EVEN Number" otherwise, you’ll
+   call a method whose name is the same but prints the message "ODD Number". We can only see which method is
    invoked (i.e., the compiler cannot resolve the call at compile time). In a situation like this, we do not have any clue whether, we will see
-   "EVEN Hello" or "ODD Hello" prior to the program’s execution. Therefore, sometimes it is also termed dynamic binding or late binding. 
+   "EVEN Number" or "ODD Number" prior to the program’s execution. Therefore, sometimes it is also termed as dynamic binding or late binding. 
 
