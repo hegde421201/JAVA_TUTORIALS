@@ -45,10 +45,9 @@ public class CODemo7 {
  The outer class is the one that contains the nested class.
  An inner class can have access to both the static and the non-static members of the outer class.
 
-
-Nested classes are useful
-because they can promote encapsulation with better security.
+Nested classes are useful because they can promote encapsulation with better security.
 The logical grouping of the classes is easily maintainable too.
 
 * */
+
 
