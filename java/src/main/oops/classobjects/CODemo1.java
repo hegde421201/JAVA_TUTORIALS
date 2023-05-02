@@ -15,6 +15,8 @@ public CODemo1(){
 
 public CODemo1(int x){
     System.out.println("Constructor with one integer parameter");
+
+    this.x = x;
 }
 
     public CODemo1(int x,int y){
@@ -79,5 +81,10 @@ The key points about constructors:
   and constructors with parameter(s) (known as parameterized constructors).
 • In general, the common tasks, like initialization of all the variables inside a class, are achieved through constructors
 
+this keyword
+--------
 
+If your local variable has the same name as the instance variable, the local variable will
+hide the instance variable. In this type of scenario, the keyword this helps to resolve the namespace collision because
+it helps to identify which one is a local variable (method parameter) and which one is the instance variable (field). Checkout line 19 for this.
 * */
