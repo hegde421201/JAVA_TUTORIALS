@@ -32,6 +32,7 @@ the background details of implementation.
 Abstraction is also very much related to encapsulation, but the difference may be easily understood with a simple day-to-day
 scenario.
 
+
 When we press a button on the remote control to switch on the television, we do not care
 about the internal circuits of the television or how the remote control controls the operation
 of the television. 
@@ -39,6 +40,14 @@ We know that different buttons on the remote control have different functionalit
 from the complex implementation details, which are encapsulated within the remote control (and the television). 
 At the same time, the common operations that can be performed through the remote control can be thought of as an abstraction. A manufacturer can
 enhance this feature when the same remote can also perform on a different model or product. For example, a music player’s remote control can also be used to control the volume of a television.
+
+The process of wrapping up the data and methods into a single entity is known as encapsulation.
+Using this technique, we can prevent arbitrary and unsecured access to our data. 
+We can use different access modifiers to restrict direct access to the data. But the use of getter and setter methods is a better example in this category. 
+In case of encapsulation, the entire code works like a capsule, so it is termed as an encapsulation.
+In abstraction, we show the essential features but hide the detailed implementation (or background details) from the user; 
+for example, when we use a remote control to switch on a television, the internal circuits of the device are not the user's concern. 
+The user is okay with the device as long as the preferred channel appears properly on the television once the button is pressed.
 
 Abstraction focuses on the noticeable behavior of an object, and encapsulation focuses on the implementation part of that behavior. 
 Encapsulation helps us to bundle the data, and at the same time it can hide some information that you do not want to disclose
@@ -60,7 +69,6 @@ The key advantage is that we can avoid lots of duplicate code with this mechanis
 
 Polymorphism
 ------------
-
 Polymorphism is generally associated with one name but many forms. Consider the behavior of a pet dog. When it sees a stranger, it gets angry and starts barking
 a lot. But when it sees its master, it makes different noises and behaves differently. Similarly, in the case of addition of two integers, 
 we expect to get a sum of the integers. But for string operands, we expect to get a concatenated string.
@@ -81,3 +89,4 @@ The two types of polymorphism are:
    invoked (i.e., the compiler cannot resolve the call at compile time). In a situation like this, we do not have any clue whether, we will see
    "EVEN Number" or "ODD Number" prior to the program’s execution. Therefore, sometimes it is also termed as dynamic binding or late binding. 
 
+|Classes and Objects| [Click here]()|
